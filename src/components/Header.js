@@ -1,5 +1,3 @@
-import react from "react";
-
 export default function Header(props) {
   const { score, highScore } = props;
 
