@@ -10,7 +10,6 @@ export default function Card(props) {
     <button className="card" onClick={handleGameLogic.bind(this, title)}>
       <figure>
         <img src={src} alt={title} />
-        <figcaption>{title}</figcaption>
       </figure>
     </button>
   );
