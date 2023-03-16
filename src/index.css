@@ -19,7 +19,7 @@ html {
 
 body {
   margin: 0;
-  height: 100%;
+  min-height: 100vh;
   overflow: hidden;
 }
 
@@ -45,10 +45,12 @@ body {
   display: grid;
   padding: 15px 20px;
   margin-top: 15px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 270px));
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   justify-content: space-around;
   column-gap: 10px;
   row-gap: 20px;
+  height: 100%;
 }
 
 .card {
@@ -60,16 +62,12 @@ body {
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 8px;
-  font-weight: 800;
-  letter-spacing: 1px;
 }
 
 img {
   display: block;
-  margin: 10px;
   max-width: 100%;
   max-height: 100%;
-  border-radius: 15px;
 }
 
 figcaption {
