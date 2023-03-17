@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
 }
 
 html {
@@ -12,6 +11,7 @@ html {
     rgba(4, 4, 4, 0.829) 18%,
     rgba(8, 7, 7, 1) 100%
   );
+  background-image: url(./images/darkdemin.webp);
   height: 100%;
   margin: 0;
 }
@@ -19,6 +19,10 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
+}
+
+h1 {
+  font-family: "Lobster", Georgia, Times, serif;
 }
 
 .header {
@@ -36,12 +40,14 @@ body {
 .score-board {
   width: 200px;
   font-size: 20px;
+  font-family: "Cabin", Helvetica, Arial, sans-serif;
 }
 
 .card-container {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 1px;
   padding: 15px 20px;
   margin-top: 15px;
   justify-content: space-around;
@@ -57,6 +63,8 @@ body {
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: none;
 }
 
 img {
