@@ -1,3 +1,5 @@
+<img width="1280" alt="Screen Shot 2023-03-17 at 7 18 55 PM" src="https://user-images.githubusercontent.com/93827843/226069050-038907c9-9f29-4341-898b-dceeb8f343c2.png">
+
 # Tarot Memory Game
 
 This is a Tarot Card memory game built with React.js, a part of The Odin Project's Full Stack pathway.
