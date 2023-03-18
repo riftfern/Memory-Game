@@ -5,7 +5,7 @@ import queenOfSwords from "../images/queen-of-swords.jpeg";
 import knightOfSwords from "../images/knight-of-swords.jpeg";
 import pageOfSwords from "../images/page-of-swords.jpeg";
 import kingOfPentacles from "../images/king-of-pantacles.jpeg";
-import queenOfPentacles from "../images/queen-of-swords.jpeg";
+import queenOfPentacles from "../images/queen-of-pantacles.jpeg";
 import knightOfPentacles from "../images/knight-of-pentacles.jpeg";
 import pageOfPentacles from "../images/page-of-pentacles.jpeg";
 import kingOfWands from "../images/king-of-wands.jpeg";
